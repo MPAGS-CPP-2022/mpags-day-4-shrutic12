@@ -39,6 +39,7 @@ class CaesarCipher {
      * \param cipherMode whether to encrypt or decrypt the input text
      * \return the result of applying the cipher to the input text
      */
+    void setKey(const std::string& key); 
     std::string applyCipher(const std::string& inputText,
                             const CipherMode cipherMode) const;
 
